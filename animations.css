@@ -29,7 +29,7 @@ p{
       width: 100px;
       height: 100px;
       /* background-color: chartreuse;  */
-      background-image: linear-gradient(yellow , red);
+      background-image: linear-gradient(to left,green,yellow , red);
       animation-name: code;
       animation-duration: 4s;
       animation-delay: 3s; 
