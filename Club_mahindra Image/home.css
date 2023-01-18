@@ -42,3 +42,13 @@ body{
 .section-head{
       color: rgb(19, 114, 222);
 }
+.img-con{
+      background-image:url(./Gym\ Pool.jpg);
+      height: 40vh;
+      width: 30vh;
+}
+.img-con>p{
+      color: antiquewhite;
+}
+.img-contain
+
