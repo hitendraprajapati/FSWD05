@@ -47,8 +47,30 @@ body{
       height: 40vh;
       width: 30vh;
 }
-.img-con>p{
-      color: antiquewhite;
+.img-contain{ 
+      display: flex;
+      height: 40vh;
+      width: 100vw;
 }
-.img-contain
+.thumbnail{
+     width: 18%; 
+     background-size: cover;
+}
+.thumbnail p{
+      color: aliceblue;
+      text-align: center;
+}
+.thumbnail:nth-child(1){background-image: url('./Gym\ Pool.jpg');}
+.thumbnail:nth-child(2){background-image: url('./Cooking\ with\ chef.jpg');}
+.thumbnail:nth-child(3){background-image: url('./Lazy\ River.jpg');}
+.thumbnail:nth-child(4){background-image: url('./Candlelight\ Dinner.jpg');}
+.thumbnail:nth-child(5){background-image: url('./Carnival.jpg') ;}
 
+.row{
+      height: 30vh;
+      width: 80vw;
+      column-gap: 20px;     
+}
+.row .col{
+      padding: 20px;
+}
