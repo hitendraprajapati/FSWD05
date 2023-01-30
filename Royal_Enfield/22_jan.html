@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>javascript</title>
+</head>
+<body>
+    <h1>Welcome to javascript</h1>
+    <p id="p-name"></p>
+    
+    <script>
+      var name = prompt("enter your name");
+      
+      // var a = "Pradeep";
+      // var b = 90;
+      // var flag = 100; // boolean take 2 values true/false
+      // console.log(a);
+      // console.log(b);
+      // console.log(flag);
+      // document.getElementById('p-name').innerText="<b>" + name + "<b>";
+      // document.write("The last name is " + a +" "+ flag);
+      // document.write("<br>The addition is " +(b+flag));
+      // const num1 = 1000;
+      // num1 = 900;
+      // document.write("<br>const is " + num1);
+      // let num2;
+      // num2 = 9000;
+      // num2 = 90000;
+      // document.write("<br>let is " + num2);
+      // document.write("<br>addition is " +(num1 + num2));
+      var array = [1,2,3,4];
+      console.log(array);
+      var person = {name: "Biplab", age:21};
+      console.log(person.age);
+      
+      var student = person;
+      console.log(student.name);
+      person.name = "biplab sharma";
+      console.log(student.name);   //copy by reference
+      var num1 = 90;
+      var num2 = num1;
+      console.log("copied value :" + num2);
+      num1 = 9000;
+      console.log("copied value :" + num2);
+      console.log("change value: " + num1);  //copy by value
+    
+      //binary operators
+      document.write("Addition is :" + (num1+num2)); //num1 & num2 are an operand
+      document.write("<br> Substraction is : " + (num1-num2));
+      document.write("<br> Division is : " + (num1/num2)); //quotient
+      document.write("<br> Modulo is : " + (num1%num2));  //remainder
+
+      //unary operators
+      document.write("<br> pre-increment : " + (++num1)); //pre-increment
+      document.write("<br> post-increment : " + (num1++));
+      document.write("<br> pre-increment : " + (num1));
+      document.write("<br> pre-decrement : " + (--num1));
+      document.write("<br> post-decrement : " + (num1--)); //pre-decrement
+      document.write("<br> post-decrement : " + (--num1)); //pre-decrement
+      
+      num1 += 100;
+      document.write("<br>Assignment : " + num1);
+      var s=3;
+      s**= 3; // 3^3 
+      document.write("<br> exponential :" + s);
+      
+      if(num1>s)
+      document.write("num1 is greater than s");
+      else
+      document.write("s is greater than num1");
+ 
+      if(num1<s)
+      {
+        document.write("num1 is greater");
+        console.log("num1 is greater");
+      }
+      else
+      {
+        document.write("num1 is greater");
+        console.log("num1 is greater");
+      }
+
+      let a=10, b=20, c=30;
+
+      if(a>b && b>c)
+      console.log("a is the greatest of all");
+      else if(b>a && b>c)
+          console.log("b is greatest of all ");
+          else
+          console.log("c is the greatest of all");
+
+    </script>
+</body>
+</html>
