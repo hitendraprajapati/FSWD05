@@ -50,3 +50,40 @@
       document.write("<br> element" + i + nums[i]);
     }
 
+    nums.forEach(function display(e){
+      document.write("<br>" +e)
+    });
+
+    // callback is a function passed as a parameter to another function 
+    
+    function disp()
+    {
+      // function body
+    }
+    var output = (a,b) => {
+      return(a+b);
+    }
+    document.write(output(4,5));
+
+    function add(a,b)
+    {
+      return(a+b);
+    }
+
+    document.write("reversed " + nums.reverse());
+    document.write(nums);
+    nums.filter((f) =>{
+      if(f>=100)
+      document.write(f);
+    })
+
+    nums.map((n) => {
+      document.write(2*n);
+    })
+
+    var arr = [12, 34, 35,65,15];
+    document.write("<br>shify method" +arr.shift());
+    arr.push(900);
+    document.write("after push <br> "+ arr);
+    document.write("<br> after pop"+ arr.pop());
+
